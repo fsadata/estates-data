@@ -1,0 +1,76 @@
+{
+	"fields": [
+		{
+			"name": "Site",
+			"title": "Site",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TotalCostsGBP",
+			"title": "TotalCostsGBP",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "OccupiedArea(m2)",
+			"title": "OccupiedArea(m2)",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "OfficeFTEStaff",
+			"title": "OfficeFTEStaff",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Workstations",
+			"title": "Workstations",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "CostPerFTEGBP",
+			"title": "CostPerFTEGBP",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "m2PerFTE",
+			"title": "m2PerFTE",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "CostPerm2GBP",
+			"title": "CostPerm2GBP",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "SqMPerWorkstation",
+			"title": "SqMPerWorkstation",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
